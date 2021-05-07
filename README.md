@@ -1,15 +1,15 @@
-# Makeupstudio Formulae
+# EduDo Formulae
 
 ## Setup
 
 ```bash
-brew tap makeupstudio/formulae
+brew tap edudo-inc/formulae
 ```
 
 > Using SSH instead of HTTP:
 
 ```bash
-brew tap makeupstudio/formulae git@github.com:makeupstudio/homebrew-formulae.git
+brew tap edudo-inc/formulae git@github.com:edudo-inc/homebrew-formulae.git
 ```
 
 ## Available Taps
@@ -17,5 +17,5 @@ brew tap makeupstudio/formulae git@github.com:makeupstudio/homebrew-formulae.git
 ### [SPMGen](https://github.com/makeupstudio/spmgen)
 
 ```bash
-brew install makeupstudio/formulae/spmgen
+brew install edudo-inc/formulae/spmgen
 ```
