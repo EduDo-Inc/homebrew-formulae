@@ -14,8 +14,15 @@ brew tap edudo-inc/formulae git@github.com:edudo-inc/homebrew-formulae.git
 
 ## Available Taps
 
-### [SPMGen](https://github.com/makeupstudio/spmgen)
+### [spmgen](https://github.com/makeupstudio/spmgen)
 
 ```bash
 brew install edudo-inc/formulae/spmgen
 ```
+
+### [swift-format](https://github.com/makeupstudio/swift-format)
+
+```bash
+brew install edudo-inc/formulae/swift-format
+```
+
