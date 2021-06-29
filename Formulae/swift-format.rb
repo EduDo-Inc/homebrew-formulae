@@ -10,7 +10,14 @@ class SwiftFormat < Formula
 
   def install
     system "swift", "package", "clean"
-    system "swift", "build", "-c", "release", "--disable-sandbox", "-build-path", "'.build'"
+    system "swift", "build", "-c", "release", "--disable-sandbox", "-build-path", ".build"
+    echo "–––––––––"
+    system "ls"
+    echo "–––––––––"
+    system "ls", ".build/"
+    echo "–––––––––"
+    system "ls", ".build/release/"
+    echo "–––––––––"
     bin.install ".build/release/swift-format"
   end
 
