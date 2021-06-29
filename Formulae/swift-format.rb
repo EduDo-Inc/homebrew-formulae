@@ -5,7 +5,7 @@ class SwiftFormat < Formula
   homepage "https://github.com/edudo-inc/swift-format"
   url "https://github.com/edudo-inc/swift-format.git", branch: "edudo"
   version "latest"
-  
+
   depends_on xcode: ["12.5", :build]
 
   def install
