@@ -5,7 +5,7 @@ class Spmgen < Formula
   homepage "https://github.com/edudo-inc/spmgen"
   url "https://github.com/edudo-inc/spmgen.git", branch: "main"
   version "latest"
-  
+
   depends_on xcode: ["12.5", :build]
 
   def install
