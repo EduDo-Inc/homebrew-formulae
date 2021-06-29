@@ -9,9 +9,7 @@ class SwiftFormat < Formula
   depends_on xcode: ["12.5", :build]
 
   def install
-    system "swift", "package", "clean"
-    system "swift", "build", "-c", "release", "--disable-sandbox", "-build-path", "'.build'"
-    bin.install ".build/release/swift-format"
+    system "make", "install_clean"
   end
 
   test do
